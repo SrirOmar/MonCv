@@ -6,4 +6,27 @@ html{
 html {
 	font-size: 1em;
 	line-height: 1.4;
+	/* background-color: #777;*/
+	
+	
+}
+#wrapper {
+	margin-left: auto;
+	margin-right: auto;
+	width : 650px;
+	max-width: 900px;
+	min-width: 320px;
+	font-family: questrial, sans-serif;
+
+	
+	/*background-color: #777;*/
+}
+#imag {
+	border : 2px solid ;
+	border-radius: 3px;
+	border-color: #ccc;
+	background-color: #ffff;
+}
+#nom {
+	font-family: rammetto-one, sans-serif;
 }
