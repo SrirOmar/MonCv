@@ -6,7 +6,8 @@ html{
 html {
 	font-size: 1em;
 	line-height: 1.4;
-	 background-color: #feffe3;
+	/* background-color: #feffe3;*/
+
 	
 	
 }
@@ -17,16 +18,36 @@ html {
 	max-width: 900px;
 	min-width: 320px;
 	font-family: questrial, sans-serif;
+	background-image: linear-gradient(to bottom,rgb(247, 111, 111), rgb(247, 111,111));
+	background-size:100%;
 
 	
-	/*background-color: #777;*/
+	/* background-color: #777; */
+}
+
+#nom {
+	font-family: rammetto-one, sans-serif;
+}
+h2 {
+	border-bottom: double;
+}
+h3 {
+	border-bottom: double;
+}
+#head {
+
+	background-image:url("sP7nK.png");
+	background-repeat: no-repeat;
+	background-size :120%;
+
+	/*linear-gradient(to bottom, rgba(255,255,0,0.5), rgba(0,0,255,0.5)),*/
 }
 #imag {
 	border : 2px solid ;
-	border-radius: 3px;
+	border-radius: 75px;
 	border-color: #ccc;
-	background-color: #ffff;
+	/*background-color: #ffff;*/
 }
-#nom {
-	font-family: rammetto-one, sans-serif;
+footer {
+text-align: center;
 }
